@@ -1,0 +1,26 @@
+﻿@model App.ViewModel.GdSerieViewModel
+
+@{
+    ViewData["Title"] = "Eliminar Series";
+}
+
+<div class="row">
+
+    <div class="col-4 offset-3">
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h4> Estas seguro de que quieres eliminar esto?</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller= "Serie" asp-action= "DeletePost">
+
+                    <input type="hidden" asp-for="Id"/>
+
+                    <button type="sutmit" class="btn btn-danger">Eliminar</button>
+                    <a asp-controller="Serie" asp-action="Index"class="btn btn-warning">Cancelar </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

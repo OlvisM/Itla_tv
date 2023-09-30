@@ -1,0 +1,14 @@
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\bin\Debug\net7.0\DataBase.deps.json
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\bin\Debug\net7.0\DataBase.runtimeconfig.json
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\bin\Debug\net7.0\DataBase.dll
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\bin\Debug\net7.0\DataBase.pdb
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.csproj.AssemblyReference.cache
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.AssemblyInfoInputs.cache
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.AssemblyInfo.cs
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.dll
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\refint\DataBase.dll
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.pdb
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\DataBase.genruntimeconfig.cache
+C:\Users\olvis\source\repos\Itla_Tv+\DataBase\obj\Debug\net7.0\ref\DataBase.dll

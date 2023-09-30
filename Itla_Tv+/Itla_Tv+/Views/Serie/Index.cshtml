@@ -1,0 +1,49 @@
+﻿@model List<App.ViewModel.SerieViewModel>
+
+@{
+    ViewData["Title"] = "Series";
+}
+<div class="container-fluid">
+
+       <div class="row mb-3">
+        <div class="col-3 offset-9">
+            <a asp-controller="Serie" asp-action="Crear" class="btn btn-outline-success"> Crea series nuevas</a>
+        </div>
+    </div>
+
+
+      <div class=" row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        @foreach (App.ViewModel.SerieViewModel item in Model)
+        {
+              <div class="col-4">
+               <div class="card shadow-sm">
+                 
+                       <img class="bd-placeholder-img card-img-top" src="@item.Imagen"/>
+                <div class="card-body">
+                     <h5 class="card-title">@item.Name</h5>
+                  <p class="card-text">@item.Description </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary"> Genero: @item.Genero</small>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary"> Productora: @item.Productora</small>
+                  </div>
+                  <div> 
+
+                            <a class="offset-9" href="@item.Trailer">Trailer</a>
+
+                  </div>
+                  <div class="btn-group">
+                      <a asp-controller="Serie" asp-action="Editar" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Edit</a>
+                      <a asp-controller="Serie" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Borrar</a>
+                  </div>
+                </div>
+              </div>
+               </div>
+        }
+
+
+    </div>
+</div>
+

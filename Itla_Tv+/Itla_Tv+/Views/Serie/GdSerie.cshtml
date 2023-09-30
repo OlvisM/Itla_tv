@@ -1,0 +1,69 @@
+﻿@model App.ViewModel.GdSerieViewModel
+
+@{
+    bool editModel = Model.Id == 0 ? false : true;
+    ViewData["title"] = "Crear Series";
+
+}
+
+<div class="Container-fluid">
+    <div class="row">
+        <div class= "col-6 offset-3">
+            <div class="card"> 
+                <div Class="card-header bg-dark text-light">
+                    <h4>@(editModel ? $"Editando el Series : {Model.Name}" : "Crear una Serie")</h4>
+                </div>
+                <div class="card-body">
+
+                    <form method="post" asp-controller="Serie" asp-action="@(editModel ? "Editar" : "Crear")">
+
+                        <div class="md-3">
+                            <label asp-for=Name class="form-label">Hombre</label>
+                            <input type="text" asp-for="Name" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Description class="form-label">Description</label>
+                            <input type="text" asp-for="Description" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Genero class="form-label">Genero</label>
+                            <input type="text" asp-for="Genero" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Productora class="form-label">Productora</label>
+                            <input type="text" asp-for="Productora" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Trailer class="form-label">Trailer</label>
+                            <input type="text" asp-for="Trailer" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Imagen class="form-label">Imagen</label>
+                            <input type="text" asp-for="Imagen" class="form-control"></input>
+                        </div>
+                        <div class="md-3">
+                            <label asp-for=Name class="form-label">Categorys</label>
+                           <select asp-for="CategoryId" class="form-select">
+                               <option value=""> Seleccione una Categoria</option>
+                               <option value="1"> Categoria 1</option>
+                               <option value="3"> categoria 2</option>
+                           </select>
+                        </div>
+
+                        <input type="hidden" asp-for="Id"></input>
+
+                        <div>
+                            <button type= "submit" class="btn btn-primary">Save</button>
+                            <a asp-controller="Serie" asp-action="Index" class="btn btn-warning">Back</a>
+                        </div>
+
+
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div> 

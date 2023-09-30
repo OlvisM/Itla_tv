@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="album py-5 bg-body-tertiary">
+
+    <div class="container-fluid">
+    <div class=" row-cols-4 col-sm row-cols-md-3 g-3">
+
+            @foreach (App.ViewModel.SerieViewModel item in Model)
+            {
+                 <div class="col-ms">
+               <div class="card ">
+                    <img class="bd-placeholder-img card-img-top" src="@item.Imagen"/>
+                <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                  <p class="card-text">@item.Description </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary"> Genero: @item.Genero</small>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-body-secondary"> Productora: @item.Productora</small>
+                  </div>
+                  <div> 
+
+                            <a class="offset-9" href="@item.Trailer">Trailer</a>
+
+                  </div>
+                </div>
+              </div>
+               </div>
+            }
+
+    </div>
+</div>
+</div>
+

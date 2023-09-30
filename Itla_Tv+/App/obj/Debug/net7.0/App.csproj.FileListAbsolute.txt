@@ -1,0 +1,15 @@
+C:\Users\olvis\source\repos\Itla_Tv+\App\bin\Debug\net7.0\App.deps.json
+C:\Users\olvis\source\repos\Itla_Tv+\App\bin\Debug\net7.0\App.dll
+C:\Users\olvis\source\repos\Itla_Tv+\App\bin\Debug\net7.0\App.pdb
+C:\Users\olvis\source\repos\Itla_Tv+\App\bin\Debug\net7.0\DataBase.dll
+C:\Users\olvis\source\repos\Itla_Tv+\App\bin\Debug\net7.0\DataBase.pdb
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.csproj.AssemblyReference.cache
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.AssemblyInfoInputs.cache
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.AssemblyInfo.cs
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.csproj.CoreCompileInputs.cache
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.csproj.CopyComplete
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.dll
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\refint\App.dll
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\App.pdb
+C:\Users\olvis\source\repos\Itla_Tv+\App\obj\Debug\net7.0\ref\App.dll
